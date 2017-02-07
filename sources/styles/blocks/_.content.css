@@ -1,0 +1,103 @@
+.content{
+    position: relative;
+}
+.page--view{
+    min-height: 800px;
+    padding: 20px 0;
+}
+.tile--item{
+    position: relative;
+    width: 800px;
+    height: 470px;
+    float: left;
+}
+.tile--item .tile--bl{
+    position: absolute;
+    overflow: hidden;
+}
+.tile--item .tile--bl a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.15);
+    transition: 0.2s linear;
+}
+.tile--item .tile--bl:hover a{
+    background: rgba(0, 0, 0, 0.65);
+}
+.tile--item .tile--bl:hover a p{
+    opacity: 1;
+}
+.tile--item .tile--bl a p{
+    background: #fff;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.4s linear;
+    -moz-transition: opacity 0.4s linear;
+    -ms-transition: opacity 0.4s linear;
+    -o-transition: opacity 0.4s linear;
+    transition: opacity 0.4s linear;
+}
+.tile--item .tile--bl a p:before{
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    height: 50%;
+}
+.tile--item .tile--bl a p > span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.tile--item .tile--football{
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 40%;
+    background: url('../../images/tiles/football--t.jpg') center no-repeat;
+}
+.tile--item .tile--basketball{
+    top: 0;
+    left: 35%;
+    width: 65%;
+    height: 55%;
+    background: url('../../images/tiles/basketball--t.jpg') top no-repeat;
+}
+.tile--item .tile--tennis{
+    top: 40%;
+    left: 0;
+    width: 35%;
+    height: 60%;
+    background: url('../../images/tiles/tennis--t.jpg') center right no-repeat;
+}
+.tile--item .tile--hockey{
+    top: 55%;
+    left: 35%;
+    width: 45%;
+    height: 45%;
+    background: url('../../images/tiles/hockey--t.jpg') center no-repeat;
+}
+.tile--item .tile--more{
+    top: 55%;
+    left: 80%;
+    width: 20%;
+    height: 45%;
+    background: #525252;
+}
+.banner--item{
+    float: right;
+}
