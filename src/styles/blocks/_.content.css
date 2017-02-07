@@ -1,0 +1,107 @@
+.content{
+    position: relative;
+}
+.page--view{
+    min-height: 800px;
+    padding: 20px 0;
+}
+.tile--item{
+    position: relative;
+    width: 700px;
+    height: 400px;
+}
+.tile--item .tile--bl{
+    position: absolute;
+    overflow: hidden;
+}
+.tile--item .tile--bl a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.25);
+    transition: 0.2s linear;
+}
+.tile--item .tile--bl:hover a{
+    background: rgba(0, 0, 0, 0.65);
+}
+.tile--item .tile--bl a span{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.2s linear;
+    box-sizing: border-box;
+}
+.tile--item .tile--football{
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 40%;
+    /*background: url('../../images/tiles/football--t.jpg') center no-repeat;*/
+}
+.tile--item .tile--football span{
+    top: -50px;
+}
+.tile--item .tile--football:hover span{
+    top: 0;
+}
+.tile--item .tile--basketball{
+    top: 0;
+    left: 35%;
+    width: 65%;
+    height: 55%;
+    /*background: url('../../images/tiles/basketball--t.jpg') top no-repeat;*/
+}
+.tile--item .tile--basketball span{
+    top: -50px;
+    text-align: right;
+}
+.tile--item .tile--basketball:hover span{
+    top: 0;
+}
+.tile--item .tile--tennis{
+    top: 40%;
+    left: 0;
+    width: 35%;
+    height: 60%;
+    /*background: url('../../images/tiles/tennis--t.jpg') center right no-repeat;*/
+}
+.tile--item .tile--tennis span{
+    top: -50px;
+}
+.tile--item .tile--tennis:hover span{
+    top: 0;
+}
+.tile--item .tile--hockey{
+    top: 55%;
+    left: 35%;
+    width: 45%;
+    height: 45%;
+    /*background: url('../../images/tiles/hockey--t.jpg') center no-repeat;*/
+}
+.tile--item .tile--hockey span{
+    top: -50px;
+    text-align: right;
+}
+.tile--item .tile--hockey:hover span{
+    top: 0;
+}
+.tile--item .tile--more{
+    top: 55%;
+    left: 80%;
+    width: 20%;
+    height: 45%;
+    background: #525252;
+}
+.tile--item .tile--more span{
+    top: -50px;
+    text-align: right;
+}
+.tile--item .tile--more:hover span{
+    top: 0;
+}
