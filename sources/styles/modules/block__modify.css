@@ -7,6 +7,9 @@
 ._block-box--content{
     box-sizing: content-box;
 }
+._block--screen_full{
+    width: 100%;
+}
 @media (min-width: 0) and (max-width: 640px) {
     ._block--screen{
         min-width: 320px;
